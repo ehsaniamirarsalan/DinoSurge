@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+.venv/
+
+# Certificates and keys (never commit)
+*.pem
+*.crt
+*.cer
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude Code
+CLAUDE.md
